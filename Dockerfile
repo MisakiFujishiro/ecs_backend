@@ -34,6 +34,6 @@ RUN ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 EXPOSE 8080
 
 # Javaの実行
-CMD java -jar -Dspring.profiles.active=staging ecs_backend/target/mynavi-sample-aws-ecs-backend-0.0.1-SNAPSHOT.jar
+CMD java -jar ecs_backend/target/mynavi-sample-aws-ecs-backend-0.0.1-SNAPSHOT.jar
 
 
