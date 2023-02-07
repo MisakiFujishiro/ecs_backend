@@ -20,12 +20,12 @@ public class BackendRestController {
         List<User> users = new ArrayList<>();
         users.add(User.builder()
         		.userId("1")
-        		.userName("Taro")
+        		.userName("CodeCommit")
         		.build());
         
         users.add(User.builder()
         		.userId("2")
-        		.userName("Jiro")
+        		.userName("CodeBuild")
         		.build());
         return users;
     }
