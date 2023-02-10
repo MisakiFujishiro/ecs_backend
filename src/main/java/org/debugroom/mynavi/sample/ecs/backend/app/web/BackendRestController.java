@@ -27,6 +27,11 @@ public class BackendRestController {
         		.userId("2")
         		.userName("CodeBuild")
         		.build());
+        users.add(User.builder()
+        		.userId("3")
+        		.userName("CodeDeploy")
+        		.build());
+
         return users;
     }
 
