@@ -31,6 +31,10 @@ public class BackendRestController {
         		.userId("3")
         		.userName("CodeDeploy")
         		.build());
+        users.add(User.builder()
+        		.userId("4")
+        		.userName("CodePipeline")
+        		.build());
 
         return users;
     }
